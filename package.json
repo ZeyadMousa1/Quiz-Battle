@@ -1,0 +1,43 @@
+{
+  "devDependencies": {
+    "@prisma/client": "^6.4.1",
+    "@types/express": "^5.0.0",
+    "@types/node": "^22.13.5",
+    "prisma": "^6.4.1",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.8.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-async-handler": "^1.2.0",
+    "express-rate-limit": "^7.5.0",
+    "express-validator": "^7.2.1",
+    "helmet": "^8.0.0",
+    "jsonwebtoken": "^9.0.2",
+    "nodemon": "^3.1.9",
+    "winston": "^3.17.0"
+  },
+  "name": "quiz-battle",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.ts",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/app.js",
+    "dev": "nodemon -x ts-node src/app.ts",
+    "watch": "ts -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZeyadMousa1/Quiz-Battle.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZeyadMousa1/Quiz-Battle/issues"
+  },
+  "homepage": "https://github.com/ZeyadMousa1/Quiz-Battle#readme"
+}
